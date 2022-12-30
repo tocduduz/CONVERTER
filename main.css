@@ -1,0 +1,115 @@
+/*body {
+    margin: 0;
+    text-align: center;
+
+}*/
+.container{
+    display: grid;
+    place-items:center ;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.hero {
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    padding: 5px;
+    background: white;
+    color: #101820ff;
+    gap: 10px;
+    width: 500px;
+   
+}
+.hero input{
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.hero button{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+}
+
+.main {
+    background: black;
+    padding: 10px;
+
+}
+
+.section {
+    display: grid;
+    place-items: center;
+    background: black;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    width: 600px;
+
+}
+
+@media (max-width: 600px) {
+    
+    .hero {
+        display: grid;
+        place-items: center;
+        font-size: 7px;
+        margin-right: 300px;
+        
+
+
+   
+    }
+
+    .section {
+        display: grid;
+        place-items: center;
+        background: black;
+       /* padding-right: 5px;
+        margin-right: 10px;*/
+        color: white;
+        width: 250px;
+        height: 100px;
+        font-size: 10px;
+    
+    }
+    .main {
+        background: black;
+        padding: 5px;
+        margin-right: 300px;
+    
+    }
+    .container{
+        display: grid;
+        place-items:center ;
+        width: 300px;
+        height: 150px;
+        margin-right: 200px;
+        box-sizing: border-box;
+        
+    }
+    .hero input{
+        width: 30px;
+        height: 25px;
+        text-align: center;
+        border-radius: 3px;
+    }
+    .hero button{
+        width: 70px;
+        height: 30px;
+        background-color: black;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+
+}
